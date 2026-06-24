@@ -1,7 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Electrical stimulation of temporal and limbic circuitry produces distinct responses in human ventral temporal cortex",
+  "description": "This dataset comprises intracranial EEG recordings from five patients undergoing single-pulse electrical stimulation of temporal and limbic circuitry at Mayo Clinic. The study investigates distinct neural responses in human ventral temporal cortex elicited by stimulation of different circuit pathways, providing insights into functional organization of this region through direct brain stimulation and recording.",
+  "methods_description": "Intracranial EEG recordings were collected during single-pulse electrical stimulation delivered at approximately 0.2 Hz with 200-microsecond biphasic pulses at 6 mA amplitude. Patients were at rest during stimulation sessions. Data were collected at Mayo Clinic in Rochester, MN.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -28,12 +30,36 @@
       "orcid": "0000-0002-8683-8909"
     }
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds004457.v1.0.1",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "intracranial EEG"
     },
+    {
+      "term": "electrical stimulation"
+    },
+    {
+      "term": "single-pulse stimulation"
+    },
+    {
+      "term": "ventral temporal cortex"
+    },
+    {
+      "term": "temporal lobe"
+    },
+    {
+      "term": "limbic system"
+    },
+    {
+      "term": "evoked potentials"
+    },
+    {
+      "term": "human"
+    },
+    {
+      "term": "basis profile curves"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "10.1101/2022.07.06.498994",
       "identifier_type": "DOI",
@@ -48,6 +74,11 @@
       "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004457",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004457.v1.0.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -68,12 +99,12 @@
       "award_title": "Medical Scientist Training Program at Mayo Clinic"
     }
   ],
+  "resource_type_specific": "iEEG Dataset",
   "modalities": [
     "ieeg"
   ],
-  "resource_type_specific": "iEEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "12.3 GB (2764 files)"
   ],
   "formats": [
     ".annot",
@@ -90,47 +121,8 @@
     ".tif",
     ".tmet",
     ".tsv",
-    ".txt"
+    ".txt",
+    ".yml"
   ],
-  "description": "This dataset comprises intracranial EEG recordings from five patients undergoing single-pulse electrical stimulation of temporal and limbic circuitry. The study investigates distinct neural responses in human ventral temporal cortex using direct brain stimulation and electrophysiological recording. Data were collected at Mayo Clinic as part of an NIH-funded investigation of processing speed in the human connectome.",
-  "methods_description": "Intracranial EEG recordings were obtained during single-pulse electrical stimulation delivered at approximately 0.2 Hz frequency. Stimulation parameters: 200 microsecond duration, biphasic waveform, 6 mA amplitude. Patients were at rest during recording sessions.",
-  "keywords": [
-    {
-      "term": "intracranial EEG"
-    },
-    {
-      "term": "single-pulse electrical stimulation"
-    },
-    {
-      "term": "brain stimulation"
-    },
-    {
-      "term": "ventral temporal cortex"
-    },
-    {
-      "term": "temporal lobe"
-    },
-    {
-      "term": "limbic system"
-    },
-    {
-      "term": "evoked responses"
-    },
-    {
-      "term": "electrophysiology"
-    },
-    {
-      "term": "clinical data"
-    },
-    {
-      "term": "human subjects"
-    },
-    {
-      "term": "connectome"
-    },
-    {
-      "term": "clinical epilepsy"
-    }
-  ],
-  "source_hash": "070bb6c65218988903625466b36687c41593125cf1dbdf2c1df1e5feff5c3c3a"
+  "source_hash": "ecf917300d6e460a12de7cf7a766e4e279827f5d3df1ab4ac59d330e6f3f711e"
 }
