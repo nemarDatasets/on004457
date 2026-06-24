@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on004457-blue)](https://doi.org/10.82901/nemar.on004457)
+
 # Basis Profile Curve identification in the human ventral temporal cortex
 
 This dataset contains intracranial EEG recordings from five patients during single pulse electrical stimulation as described in:
