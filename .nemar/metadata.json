@@ -1,35 +1,54 @@
 {
   "version": "2.0",
-  "dataset_id": "on004457",
-  "source": "openneuro",
-  "source_id": "ds004457",
+  "pipeline_stage": "enriched",
   "title": "Electrical stimulation of temporal and limbic circuitry produces distinct responses in human ventral temporal cortex",
-  "authors": {
-    "Harvey Huang": {},
-    "Nicholas M Gregg": {},
-    "Gabriela Ojeda Valencia": {},
-    "Benjamin H Brinkmann": {},
-    "Brian N Lundstrom": {},
-    "Gregory A Worrell": {},
-    "Kai J Miller": {},
-    "Dora Hermes": {}
-  },
   "license": "CC0",
   "dataset_type": "raw",
+  "authors": {
+    "Harvey Huang": {
+      "orcid": "0000-0002-0540-697X"
+    },
+    "Nicholas M Gregg": {
+      "orcid": "0000-0002-6151-043X"
+    },
+    "Gabriela Ojeda Valencia": {},
+    "Benjamin H Brinkmann": {
+      "orcid": "0000-0002-2392-8608"
+    },
+    "Brian N Lundstrom": {
+      "orcid": "0000-0002-5310-5549"
+    },
+    "Gregory A Worrell": {
+      "orcid": "0000-0003-2916-0553"
+    },
+    "Kai J Miller": {
+      "orcid": "0000-0002-6687-6422"
+    },
+    "Dora Hermes": {
+      "orcid": "0000-0002-8683-8909"
+    }
+  },
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004457.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "10.1101/2022.07.06.498994",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on004457",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004457",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "v 1.9.9",
-  "recording_modality": [
-    "ieeg"
-  ],
-  "datatypes": [
-    "ieeg"
   ],
   "funding_references": [
     {
@@ -37,7 +56,81 @@
     },
     {
       "funder_name": "T32 GM065841: Medical Scientist Training Program at Mayo Clinic"
+    },
+    {
+      "funder_name": "National Institute of Mental Health",
+      "award_number": "R01MH122258",
+      "award_title": "CRCNS: Processing speed in the human connectome across the lifespan"
+    },
+    {
+      "funder_name": "National Institute of General Medical Sciences",
+      "award_number": "T32GM065841",
+      "award_title": "Medical Scientist Training Program at Mayo Clinic"
     }
   ],
-  "acknowledgements": "Cindy Nelson, Karla Crockett"
+  "modalities": [
+    "ieeg"
+  ],
+  "resource_type_specific": "iEEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".annot",
+    ".gii",
+    ".gz",
+    ".json",
+    ".mat",
+    ".md",
+    ".mgz",
+    ".nii",
+    ".sulc",
+    ".tdat",
+    ".tidx",
+    ".tif",
+    ".tmet",
+    ".tsv",
+    ".txt"
+  ],
+  "description": "This dataset comprises intracranial EEG recordings from five patients undergoing single-pulse electrical stimulation of temporal and limbic circuitry. The study investigates distinct neural responses in human ventral temporal cortex using direct brain stimulation and electrophysiological recording. Data were collected at Mayo Clinic as part of an NIH-funded investigation of processing speed in the human connectome.",
+  "methods_description": "Intracranial EEG recordings were obtained during single-pulse electrical stimulation delivered at approximately 0.2 Hz frequency. Stimulation parameters: 200 microsecond duration, biphasic waveform, 6 mA amplitude. Patients were at rest during recording sessions.",
+  "keywords": [
+    {
+      "term": "intracranial EEG"
+    },
+    {
+      "term": "single-pulse electrical stimulation"
+    },
+    {
+      "term": "brain stimulation"
+    },
+    {
+      "term": "ventral temporal cortex"
+    },
+    {
+      "term": "temporal lobe"
+    },
+    {
+      "term": "limbic system"
+    },
+    {
+      "term": "evoked responses"
+    },
+    {
+      "term": "electrophysiology"
+    },
+    {
+      "term": "clinical data"
+    },
+    {
+      "term": "human subjects"
+    },
+    {
+      "term": "connectome"
+    },
+    {
+      "term": "clinical epilepsy"
+    }
+  ],
+  "source_hash": "070bb6c65218988903625466b36687c41593125cf1dbdf2c1df1e5feff5c3c3a"
 }
