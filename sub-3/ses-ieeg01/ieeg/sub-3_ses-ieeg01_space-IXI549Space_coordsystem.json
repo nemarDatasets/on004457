@@ -1,0 +1,7 @@
+{
+    "iEEGCoordinateSystem": "IXI549Space",
+    "iEEGCoordinateUnits": "mm",
+    "iEEGCoordinateSystemDescription": "SPM12 default template space (IXI549Space), reached through the dataset's own SPM deformation field.",
+    "iEEGCoordinateProcessingDescription": "Computed by NEMAR (ieeg_geometry 0.1.0). Source: sub-3/ses-ieeg01/ieeg/sub-3_ses-ieeg01_electrodes.tsv, mapped to the SPM template space by inverting the dataset's SPM deformation field derivatives/freesurfer/sub-3/y_sub-3_ses-mri01_T1w.nii (inversion residual median 0.005 mm, maximum 0.028 mm). The file was paired with the field by: template verification (inside 98.0% against 89.2% for sub-3_ses-ieeg01_space-ACPC_electrodes.tsv). Field check on the subject's own pial surface (4000 sampled vertices inverted): median 4.57 mm and 10th percentile 1.16 mm from the MNI152NLin2009cAsym shell, centroid 8.7 mm from the shell's, largest axis-extent difference 9%. Plausibility against the MNI152NLin2009cAsym shell (seeg plausible): 98.0% of the contacts inside it, farthest outside 2.2 mm. This is a plausibility check, not an error estimate: the shell has no sulci, so the median distance of depth contacts to it (8.0 mm) says nothing about accuracy. SPM template spaces differ from MNI152NLin2009cAsym by a few millimeters.",
+    "iEEGCoordinateProcessingReference": "https://docs.nemar.org/data/ieeg-geometry/"
+}

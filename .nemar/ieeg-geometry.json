@@ -1,0 +1,358 @@
+{
+  "paths": {
+    "sub-1/ses-ieeg01/ieeg/sub-1_ses-ieeg01_space-IXI549Space_coordsystem.json": {
+      "inputs": [
+        {
+          "blob": "ff6cd67edbd7ea19dff7eff4a4032968b64eff5b",
+          "path": "derivatives/freesurfer/sub-1/pial.L.surf.gii"
+        },
+        {
+          "blob": "f1690437528d0bc17979131efb49dbc54752839d",
+          "path": "derivatives/freesurfer/sub-1/y_sub-1_ses-mri01_T1w_acpc.nii"
+        },
+        {
+          "blob": "cc2dcebe80a4133910a9d65de24abcca6cd774f7",
+          "path": "sub-1/ses-ieeg01/ieeg/sub-1_ses-ieeg01_coordsystem.json"
+        },
+        {
+          "blob": "359ac487818c7959a57827c2d4024337dcca6166",
+          "path": "sub-1/ses-ieeg01/ieeg/sub-1_ses-ieeg01_electrodes.tsv"
+        }
+      ],
+      "kind": "coordsystem",
+      "method": "spm-deformation-inversion",
+      "output_sha256": "e39b0cb194674d3282eda4f1e8efee13cf19cc81b730a401b4bb23d43413f7eb",
+      "verification": {
+        "field_check_median_mm": 4.434,
+        "field_check_p10_mm": 1.196,
+        "grade": "plausible",
+        "inside_evaluated": true,
+        "inside_fraction": 0.966,
+        "max_mm": 23.199,
+        "max_outside_mm": 3.398,
+        "median_mm": 9.487,
+        "n_ambiguous": 0,
+        "n_left_out": 0,
+        "n_total": 147,
+        "n_used": 147,
+        "near_or_inside_fraction": 1.0,
+        "offset_applied": null,
+        "p90_mm": 15.751,
+        "passed": true,
+        "reason": null,
+        "reference": "MNI152NLin2009cAsym",
+        "rule": ">= 95% inside and none more than 10.0 mm outside (median reported, not judged)"
+      }
+    },
+    "sub-1/ses-ieeg01/ieeg/sub-1_ses-ieeg01_space-IXI549Space_electrodes.tsv": {
+      "inputs": [
+        {
+          "blob": "ff6cd67edbd7ea19dff7eff4a4032968b64eff5b",
+          "path": "derivatives/freesurfer/sub-1/pial.L.surf.gii"
+        },
+        {
+          "blob": "f1690437528d0bc17979131efb49dbc54752839d",
+          "path": "derivatives/freesurfer/sub-1/y_sub-1_ses-mri01_T1w_acpc.nii"
+        },
+        {
+          "blob": "cc2dcebe80a4133910a9d65de24abcca6cd774f7",
+          "path": "sub-1/ses-ieeg01/ieeg/sub-1_ses-ieeg01_coordsystem.json"
+        },
+        {
+          "blob": "359ac487818c7959a57827c2d4024337dcca6166",
+          "path": "sub-1/ses-ieeg01/ieeg/sub-1_ses-ieeg01_electrodes.tsv"
+        }
+      ],
+      "kind": "electrodes",
+      "method": "spm-deformation-inversion",
+      "output_sha256": "136e5bc14293211fc6c70d1246a62a51c2a804604de4e4590a2609958bfa2254",
+      "verification": {
+        "field_check_median_mm": 4.434,
+        "field_check_p10_mm": 1.196,
+        "grade": "plausible",
+        "inside_evaluated": true,
+        "inside_fraction": 0.966,
+        "max_mm": 23.199,
+        "max_outside_mm": 3.398,
+        "median_mm": 9.487,
+        "n_ambiguous": 0,
+        "n_left_out": 0,
+        "n_total": 147,
+        "n_used": 147,
+        "near_or_inside_fraction": 1.0,
+        "offset_applied": null,
+        "p90_mm": 15.751,
+        "passed": true,
+        "reason": null,
+        "reference": "MNI152NLin2009cAsym",
+        "rule": ">= 95% inside and none more than 10.0 mm outside (median reported, not judged)"
+      }
+    },
+    "sub-2/ses-ieeg01/ieeg/sub-2_ses-ieeg01_space-IXI549Space_coordsystem.json": {
+      "inputs": [
+        {
+          "blob": "974d39da2e0ba53cd111fea629df35335316cc02",
+          "path": "derivatives/freesurfer/sub-2/pial.R.surf.gii"
+        },
+        {
+          "blob": "3f741ce3cd27b14e21d2b05838bb812af35269d1",
+          "path": "derivatives/freesurfer/sub-2/y_sub-2_ses-mri01_T1w.nii"
+        },
+        {
+          "blob": "a37b6626efde528454f693b5207cbf6238d58cb0",
+          "path": "sub-2/ses-ieeg01/ieeg/sub-2_ses-ieeg01_coordsystem.json"
+        },
+        {
+          "blob": "fdf69cfd2c6fb4deb2a41eb87448c36590a9633a",
+          "path": "sub-2/ses-ieeg01/ieeg/sub-2_ses-ieeg01_electrodes.tsv"
+        }
+      ],
+      "kind": "coordsystem",
+      "method": "spm-deformation-inversion",
+      "output_sha256": "85bedb17e10483938a9c41009fdf0ee1c77e5d10401c2b60b38d1d9f83ff67de",
+      "verification": {
+        "field_check_median_mm": 4.772,
+        "field_check_p10_mm": 1.229,
+        "grade": "plausible",
+        "inside_evaluated": true,
+        "inside_fraction": 0.976,
+        "max_mm": 24.599,
+        "max_outside_mm": 4.343,
+        "median_mm": 7.679,
+        "n_ambiguous": 0,
+        "n_left_out": 0,
+        "n_total": 165,
+        "n_used": 165,
+        "near_or_inside_fraction": 1.0,
+        "offset_applied": null,
+        "p90_mm": 16.278,
+        "passed": true,
+        "reason": null,
+        "reference": "MNI152NLin2009cAsym",
+        "rule": ">= 95% inside and none more than 10.0 mm outside (median reported, not judged)"
+      }
+    },
+    "sub-2/ses-ieeg01/ieeg/sub-2_ses-ieeg01_space-IXI549Space_electrodes.tsv": {
+      "inputs": [
+        {
+          "blob": "974d39da2e0ba53cd111fea629df35335316cc02",
+          "path": "derivatives/freesurfer/sub-2/pial.R.surf.gii"
+        },
+        {
+          "blob": "3f741ce3cd27b14e21d2b05838bb812af35269d1",
+          "path": "derivatives/freesurfer/sub-2/y_sub-2_ses-mri01_T1w.nii"
+        },
+        {
+          "blob": "a37b6626efde528454f693b5207cbf6238d58cb0",
+          "path": "sub-2/ses-ieeg01/ieeg/sub-2_ses-ieeg01_coordsystem.json"
+        },
+        {
+          "blob": "fdf69cfd2c6fb4deb2a41eb87448c36590a9633a",
+          "path": "sub-2/ses-ieeg01/ieeg/sub-2_ses-ieeg01_electrodes.tsv"
+        }
+      ],
+      "kind": "electrodes",
+      "method": "spm-deformation-inversion",
+      "output_sha256": "c63d30f0b785775b3742e9c59d2d11e72d439f30399f353da4c041b497cd5db5",
+      "verification": {
+        "field_check_median_mm": 4.772,
+        "field_check_p10_mm": 1.229,
+        "grade": "plausible",
+        "inside_evaluated": true,
+        "inside_fraction": 0.976,
+        "max_mm": 24.599,
+        "max_outside_mm": 4.343,
+        "median_mm": 7.679,
+        "n_ambiguous": 0,
+        "n_left_out": 0,
+        "n_total": 165,
+        "n_used": 165,
+        "near_or_inside_fraction": 1.0,
+        "offset_applied": null,
+        "p90_mm": 16.278,
+        "passed": true,
+        "reason": null,
+        "reference": "MNI152NLin2009cAsym",
+        "rule": ">= 95% inside and none more than 10.0 mm outside (median reported, not judged)"
+      }
+    },
+    "sub-3/ses-ieeg01/ieeg/sub-3_ses-ieeg01_space-IXI549Space_coordsystem.json": {
+      "inputs": [
+        {
+          "blob": "9ba312225bc6137b452ac72c1f07ad512b95cc6a",
+          "path": "derivatives/freesurfer/sub-3/pial.L.surf.gii"
+        },
+        {
+          "blob": "4f7af980505e30ad1c269f010f76639c4bdf38bd",
+          "path": "derivatives/freesurfer/sub-3/y_sub-3_ses-mri01_T1w.nii"
+        },
+        {
+          "blob": "bfafdf301dd841b88ca62c47317bf8e37e8a797b",
+          "path": "sub-3/ses-ieeg01/ieeg/sub-3_ses-ieeg01_coordsystem.json"
+        },
+        {
+          "blob": "2b87ccacf06e66e5987aaf2871026d31ed6d5182",
+          "path": "sub-3/ses-ieeg01/ieeg/sub-3_ses-ieeg01_electrodes.tsv"
+        }
+      ],
+      "kind": "coordsystem",
+      "method": "spm-deformation-inversion",
+      "output_sha256": "c42d8a75d56896e5785184c06ada05a19c29c724d47c7051aa82a59fbb9e383e",
+      "verification": {
+        "field_check_median_mm": 4.575,
+        "field_check_p10_mm": 1.156,
+        "grade": "plausible",
+        "inside_evaluated": true,
+        "inside_fraction": 0.98,
+        "max_mm": 20.819,
+        "max_outside_mm": 2.183,
+        "median_mm": 8.024,
+        "n_ambiguous": 0,
+        "n_left_out": 0,
+        "n_total": 102,
+        "n_used": 102,
+        "near_or_inside_fraction": 1.0,
+        "offset_applied": null,
+        "p90_mm": 15.408,
+        "passed": true,
+        "reason": null,
+        "reference": "MNI152NLin2009cAsym",
+        "rule": ">= 95% inside and none more than 10.0 mm outside (median reported, not judged)"
+      }
+    },
+    "sub-3/ses-ieeg01/ieeg/sub-3_ses-ieeg01_space-IXI549Space_electrodes.tsv": {
+      "inputs": [
+        {
+          "blob": "9ba312225bc6137b452ac72c1f07ad512b95cc6a",
+          "path": "derivatives/freesurfer/sub-3/pial.L.surf.gii"
+        },
+        {
+          "blob": "4f7af980505e30ad1c269f010f76639c4bdf38bd",
+          "path": "derivatives/freesurfer/sub-3/y_sub-3_ses-mri01_T1w.nii"
+        },
+        {
+          "blob": "bfafdf301dd841b88ca62c47317bf8e37e8a797b",
+          "path": "sub-3/ses-ieeg01/ieeg/sub-3_ses-ieeg01_coordsystem.json"
+        },
+        {
+          "blob": "2b87ccacf06e66e5987aaf2871026d31ed6d5182",
+          "path": "sub-3/ses-ieeg01/ieeg/sub-3_ses-ieeg01_electrodes.tsv"
+        }
+      ],
+      "kind": "electrodes",
+      "method": "spm-deformation-inversion",
+      "output_sha256": "2c12081add89c4cdbefb1a8f7e99d1614debbd4e9ab7f313f1065cd827d89a9a",
+      "verification": {
+        "field_check_median_mm": 4.575,
+        "field_check_p10_mm": 1.156,
+        "grade": "plausible",
+        "inside_evaluated": true,
+        "inside_fraction": 0.98,
+        "max_mm": 20.819,
+        "max_outside_mm": 2.183,
+        "median_mm": 8.024,
+        "n_ambiguous": 0,
+        "n_left_out": 0,
+        "n_total": 102,
+        "n_used": 102,
+        "near_or_inside_fraction": 1.0,
+        "offset_applied": null,
+        "p90_mm": 15.408,
+        "passed": true,
+        "reason": null,
+        "reference": "MNI152NLin2009cAsym",
+        "rule": ">= 95% inside and none more than 10.0 mm outside (median reported, not judged)"
+      }
+    },
+    "sub-4/ses-ieeg01/ieeg/sub-4_ses-ieeg01_space-IXI549Space_coordsystem.json": {
+      "inputs": [
+        {
+          "blob": "517164512cb5e524e2b31a2a0598dd458aefd205",
+          "path": "derivatives/freesurfer/sub-4/pial.R.surf.gii"
+        },
+        {
+          "blob": "0d665c2ca7b187ce5c6fa13a650444bc7dfdf3d2",
+          "path": "derivatives/freesurfer/sub-4/y_sub-4_ses-mri01_T1w.nii"
+        },
+        {
+          "blob": "3837dc666b869f6d191ace6cc91157fb2f583bb3",
+          "path": "sub-4/ses-ieeg01/ieeg/sub-4_ses-ieeg01_coordsystem.json"
+        },
+        {
+          "blob": "cbe0c07cade6182ca6d47bf4c67b24cc13b6edc3",
+          "path": "sub-4/ses-ieeg01/ieeg/sub-4_ses-ieeg01_electrodes.tsv"
+        }
+      ],
+      "kind": "coordsystem",
+      "method": "spm-deformation-inversion",
+      "output_sha256": "e906426c9ce7b876f0c1f298810cfbb42c0ac46c63d09e46d3abb147b2e2c0f3",
+      "verification": {
+        "field_check_median_mm": 5.332,
+        "field_check_p10_mm": 1.489,
+        "grade": "plausible",
+        "inside_evaluated": true,
+        "inside_fraction": 0.988,
+        "max_mm": 24.11,
+        "max_outside_mm": 2.345,
+        "median_mm": 10.017,
+        "n_ambiguous": 0,
+        "n_left_out": 0,
+        "n_total": 166,
+        "n_used": 166,
+        "near_or_inside_fraction": 1.0,
+        "offset_applied": null,
+        "p90_mm": 17.652,
+        "passed": true,
+        "reason": null,
+        "reference": "MNI152NLin2009cAsym",
+        "rule": ">= 95% inside and none more than 10.0 mm outside (median reported, not judged)"
+      }
+    },
+    "sub-4/ses-ieeg01/ieeg/sub-4_ses-ieeg01_space-IXI549Space_electrodes.tsv": {
+      "inputs": [
+        {
+          "blob": "517164512cb5e524e2b31a2a0598dd458aefd205",
+          "path": "derivatives/freesurfer/sub-4/pial.R.surf.gii"
+        },
+        {
+          "blob": "0d665c2ca7b187ce5c6fa13a650444bc7dfdf3d2",
+          "path": "derivatives/freesurfer/sub-4/y_sub-4_ses-mri01_T1w.nii"
+        },
+        {
+          "blob": "3837dc666b869f6d191ace6cc91157fb2f583bb3",
+          "path": "sub-4/ses-ieeg01/ieeg/sub-4_ses-ieeg01_coordsystem.json"
+        },
+        {
+          "blob": "cbe0c07cade6182ca6d47bf4c67b24cc13b6edc3",
+          "path": "sub-4/ses-ieeg01/ieeg/sub-4_ses-ieeg01_electrodes.tsv"
+        }
+      ],
+      "kind": "electrodes",
+      "method": "spm-deformation-inversion",
+      "output_sha256": "323bc687ce8c6b6c323f730745810eda86851d742f5e6e02842478275980acc4",
+      "verification": {
+        "field_check_median_mm": 5.332,
+        "field_check_p10_mm": 1.489,
+        "grade": "plausible",
+        "inside_evaluated": true,
+        "inside_fraction": 0.988,
+        "max_mm": 24.11,
+        "max_outside_mm": 2.345,
+        "median_mm": 10.017,
+        "n_ambiguous": 0,
+        "n_left_out": 0,
+        "n_total": 166,
+        "n_used": 166,
+        "near_or_inside_fraction": 1.0,
+        "offset_applied": null,
+        "p90_mm": 17.652,
+        "passed": true,
+        "reason": null,
+        "reference": "MNI152NLin2009cAsym",
+        "rule": ">= 95% inside and none more than 10.0 mm outside (median reported, not judged)"
+      }
+    }
+  },
+  "pipeline_version": "0.1.0",
+  "schema": 1
+}
