@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Electrical stimulation of temporal and limbic circuitry produces distinct responses in human ventral temporal cortex",
-  "description": "Intracranial EEG recordings from five patients undergoing clinical monitoring at the Mayo Clinic, collected during single pulse electrical stimulation. The dataset supports identification of distinct basis profile curves in human ventral temporal cortex evoked by stimulation of temporal and limbic circuitry. Analysis code is available in an accompanying GitHub repository.",
-  "methods_description": "Patients rested in a hospital bed while single pulse electrical stimulation was delivered at approximately 0.2 Hz. Stimulation pulses were biphasic, 200 microseconds in duration, with an amplitude of 6 mA.",
+  "description": "Intracranial EEG recordings from five patients undergoing single pulse electrical stimulation at the Mayo Clinic. The dataset supports identification of basis profile curves in human ventral temporal cortex and the study of how stimulation of temporal and limbic circuitry produces distinct cortical responses. Analysis code in Matlab is available from the authors.",
+  "methods_description": "Patients rested in a hospital bed while single pulse electrical stimulation was delivered at about 0.2 Hz. Pulses were biphasic, 200 microseconds in duration, with an amplitude of 6 mA. Recordings were intracranial EEG.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -38,25 +38,25 @@
       "term": "electrical stimulation"
     },
     {
-      "term": "single pulse electrical stimulation"
+      "term": "single pulse stimulation"
     },
     {
       "term": "ventral temporal cortex"
     },
     {
-      "term": "Limbic System",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D008032"
+      "term": "basis profile curves"
     },
     {
-      "term": "basis profile curves"
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "10.1101/2022.07.06.498994",
       "identifier_type": "DOI",
-      "relation_type": "IsDescribedBy"
+      "relation_type": "References"
     },
     {
       "identifier": "https://github.com/nemarDatasets/on004457",
@@ -64,13 +64,18 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "10.18112/openneuro.ds004457.v1.0.1",
+      "identifier": "https://nemar.org/dataset/on004457",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004457.v1.0.2",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
     },
     {
-      "identifier": "https://nemar.org/dataset/on004457",
-      "identifier_type": "URL",
+      "identifier": "10.1523/jneurosci.1325-22.2023",
+      "identifier_type": "DOI",
       "relation_type": "IsDescribedBy"
     }
   ],
@@ -82,12 +87,12 @@
       "funder_name": "T32 GM065841: Medical Scientist Training Program at Mayo Clinic"
     },
     {
-      "funder_name": "National Institute of Mental Health",
+      "funder_name": "National Institute of Mental Health (NIH)",
       "award_number": "R01MH122258",
       "award_title": "CRCNS: Processing speed in the human connectome across the lifespan"
     },
     {
-      "funder_name": "National Institute of General Medical Sciences",
+      "funder_name": "National Institute of General Medical Sciences (NIH)",
       "award_number": "T32GM065841",
       "award_title": "Medical Scientist Training Program at Mayo Clinic"
     }
@@ -117,5 +122,5 @@
     ".txt",
     ".yml"
   ],
-  "source_hash": "ecf917300d6e460a12de7cf7a766e4e279827f5d3df1ab4ac59d330e6f3f711e"
+  "source_hash": "d087fe27bb85b0a1c44fb0dd8b09b0142872b32d267b55013a31be4bfb82ef50"
 }
